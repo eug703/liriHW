@@ -7,3 +7,14 @@ var inquirer = require('inquirer');
 var moment = require('moment');
 var axios = require('axios');
 var spotify = require('node-spotify-api');
+var fs = require('fs');
+
+
+inquirer
+.prompt([
+    type: "input",
+    message: "Whats your"
+
+
+
+])
