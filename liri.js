@@ -12,8 +12,22 @@ var fs = require('fs');
 
 inquirer
 .prompt([
-    type: "input",
-    message: "Whats your"
+    {
+        type: "input",
+        message: "What's your name?",
+        name: "username",
+    },
+    {
+        type: "list"
+        message: "What would you like to do?",
+        choices: [
+            'concert-this'
+            'spotify-this-song'
+            'movie=this'
+            'do-what-it-says'
+        ]
+    }
+
 
 
 
